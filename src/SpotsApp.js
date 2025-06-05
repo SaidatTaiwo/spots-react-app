@@ -17,32 +17,32 @@ const SpotsApp = () => {
 
   const [posts, setPosts] = useState([
     {
-      image: "./CIRCLE 17 PICTURES/PICTURES/Mask group.png",
-      title: "Val Thorens",
+      image: "/public/Circle 17 pictures/Val thorens.png",
+      title: "Val thorens",
       liked: false
     },
     {
-      image: "./CIRCLE 17 PICTURES/PICTURES/Restaurant terrace.png",
+      image: "/public/Circle 17 pictures/Restaurant terrace.png",
       title: "Restaurant Terrace",
       liked: false
     },
     {
-      image: "./CIRCLE 17 PICTURES/PICTURES/An outdoor cafe.png",
+      image: "/public/Circle 17 pictures/An outdoor cafe.png" ,
       title: "An outdoor cafe",
       liked: false
     },
     {
-      image: "./CIRCLE 17 PICTURES/PICTURES/A very long bridge.png",
+      image: "/public/Circle 17 pictures/A very long bridge.png",
       title: "A very long bridge",
       liked: false
     },
     {
-      image: "./CIRCLE 17 PICTURES/PICTURES/Tunnel with morning light.png",
+      image: "/public/Circle 17 pictures/Tunnel with morning light.png",
       title: "Tunnel with morning light",
       liked: false
     },
     {
-      image: "./CIRCLE 17 PICTURES/PICTURES/Mountain house.png",
+      image: "/public/Circle 17 pictures/Mountain house.png",
       title: "Mountain house",
       liked: false
     }
@@ -148,14 +148,14 @@ const SpotsApp = () => {
   return (
     <>
       <div className="header">
-        <img src="./circle17icons/logo/Logo.svg" alt="cross" />
+        <img src="/public/Circle 17 icons/Logo.svg" alt="Logo" />
       </div>
 
       <main className="container">
         <div className="profile-container">
           <div className="profile-card">
             <div className="profile-img">
-              <img src="./circle17icons/image icon(header)/image.png" alt="Profile Image" />
+              <img src="/public/Circle 17 icons/image.png" alt="Profile Image" />
             </div>
             <div className="profile-info">
               <div className="profile-name">
@@ -163,13 +163,13 @@ const SpotsApp = () => {
                 <p className="multiline-ellipsis">Civil Aviator</p>
               </div>
               <a className="edit-link" href="#" id="editProfileBtn" ref={editProfileBtnRef}>
-                <img src="./circle17icons/edit icon/edit icon.png" alt="Edit Icon" />
+                <img src="/public/Circle 17 icons/edit icon.png" alt="Edit Icon" />
                 <span>Edit Profile</span>
               </a>
             </div>
           </div>
           <button className="new-post-button" id="newPostBtn" ref={newPostBtnRef}>
-            <img src="./circle17icons/plus icon/plus sign.png" alt="Plus Icon" />
+            <img src="/public/Circle 17 icons/plus sign.png" alt="Plus Icon" />
             <span>New Post</span>
           </button>
         </div>
